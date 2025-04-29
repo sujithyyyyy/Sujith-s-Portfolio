@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user" ></i>
+                    <p>About Me</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                    <p>Services</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fa-images"></i>
+                    <p>Gallery</p>
+                </li>
+                <li onclick="Navigate(4)"><i class="fa-solid fa-comments"></i>
+                    <p>Contact Me</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I'm <span class="stylized-name">Sujith Sridhar</span>,</h1>
+                        <h2>A <span class="proffesions">Web Developer</span></h2>
+                        <p class="heroline">I specialize in building secure, scalable web apps with JavaScript and Python, while actively learning React and exploring emerging AI trends to create intelligent, user-first digital solutions.</p>
+                        <div class="buttonGroup">
+                            <a href="https://drive.google.com/file/d/1OhSOsOMANbgLXMUbOI5IDoljkt3NrKST/view?usp=drive_link" target="_blank" download><button>Hire Me</button></a>
+                            <a href="mailto:sujith.s2812004@gmail.com"><button>Contact Me</button></a>
+                        </div>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="./assets/N.456.png" alt="Profile photo">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                    <h1 class="heading">About Me</h1>
+                    <h3 class="sub-heading">I'm Sujith, <span class="proffesions">A Web Developer</span></h3>
+                    <p class="aboutme-deatils">
+                        I'm passionate about building intuitive, responsive, and scalable digital experiences.
+                        From crafting clean front-end interfaces to designing secure RESTful APIs, I turn ideas into interactive web solutions using HTML, CSS, JavaScript, React, Node.js, and Python. I thrive on solving real-world problems with performance-focused code and seamless user experiences.
+                        
+                        
+                    </p>
+                    <div class="about-me-divison">
+                        <div class="about-me-table">
+                            
+                            <li><span>Country:</span> India</li>
+                            <li><span>Completed Projects:</span>5+ Academic & Personal Projects </li>
+                            
+                            <li><span>Age</span>:21</li>
+                            <li><span>Phone</span>:9585346376</li>
+                            <li><span>Language Used:</span>HTML/CSS & Javascript</li>
+                            <li><span>Degree</span>	B.E Mechanical Engineering</li>
+                            <div class="buttonGroup">
+                                <a href="https://drive.google.com/file/d/1OhSOsOMANbgLXMUbOI5IDoljkt3NrKST/view?usp=drive_link" target="_blank" download><button>Hire Me</button></a>
+                                <a href="mailto:sujith.s2812004@gmail.com"><button>Contact Me</button></a>
+                            </div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <li>
+                                <p>HTML</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:99%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>CSS</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Python</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>SQL</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:70%"></div>
+                                </div>
+                            </li>
+                            <li>
+                            
+                                <p>JavaScript</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:70%"></div>
+                                </div>
+                            </li>
+                            
+                           
+                            <li>
+                                <p>Node.js</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:50%"></div>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <p>React</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:10%"></div>
+                                </div>
+                            </li>
+                            
+                        </div>
+                       
+                        </div>
+                    </div> hire
+                </div>
+                <div class="swiper-slide services">
+                    <h1 class="heading">Services</h1>
+                    <div class="service" style="min-height: 250px;">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h2>Web Design</h2>
+                        <p>Creating responsive websites with modern UI/UX principles for seamless user experience.</p>
+                    </div>
+                    <div class="service" style="min-height: 250px;">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Web Development</h2>
+                        <p>Building scalable web applications using modern frameworks with focus on performance and responsiveness.</p>
+                    </div>
+                    
+                    <div class="service" style="min-height: 250px;">
+                        <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <h2>Software Development</h2>
+                        <p>Developing efficient solutions using multiple programming languages and frameworks.</p>
+                    </div>
+                    
+                </div>
+                <div class="swiper-slide gallery">
+                    <h1 class="heading">Gallery</h1>
+                    <div class="project">
+                        <a href="https://sujinetflix.ccbp.tech/" target="_blank">
+                            <img src="assets/netflix_clone.jpeg" alt="Netflix-Clone">
+                            <p style="color: white; text-align: center; font-family: 'Poppins', sans-serif;">Netflix Clone</p>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://sujithstodolist.ccbp.tech/" target="_blank">
+                            <img src="assets/Todo_List_Website.jpeg" alt="Todo Website">
+                            <p style="color: white; text-align: center; font-family: 'Poppins', sans-serif;">Todo Website</p>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://chatbotsujith.ccbp.tech/" target="_blank">
+                            <img src="assets/Chatbot ui.jpeg" alt="Chat Bot">
+                            <p style="color: white; text-align: center; font-family: 'Poppins', sans-serif;">Chat Bot</p>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://podcasts1828.ccbp.tech/" target="_blank">
+                            <img src="assets/Podcast static.jpeg" alt="Podcast static Website">
+                            <p style="color: white; text-align: center; font-family: 'Poppins', sans-serif;">Podcast Static Website</p>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://book-recommender-system-vt85.onrender.com" target="_blank">
+                            <img src="assets/BookRecommend.png" alt="Book Recommender System">
+                            <p style="color: white; text-align: center; font-family: 'Poppins', sans-serif;">Book Recommender System</p>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="swiper-slide contactMe">
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contact-info-container">
+                        <div class="contactinfo">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3>Mobile No</h3>
+                            <p>+919585346376</p>
+                        </div>
+                        <div class="contactinfo">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3>Location</h3>
+                            <p>Thiruvarur, TN</p>
+                        </div>
+                        <div class="contactinfo">
+                            <i class="fa-regular fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>sujith.s2812004@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <form action="https://formspree.io/f/xpwdqrgw" method="POST">
+                        <h2>Send Me A Message <div class="SocialLinks">
+                                <a href="https://github.com/sujithyyyyy" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://instagram.com/sujithyyyyyy__" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/sujith-sridhar-225169271" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </h2>
+                        
+
+
+                        <div class="form-group">
+                            <label for="email">Your Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message:</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required></textarea>
+                        </div>
+                        
+                        <div class="buttonGroup">
+                            <button type="submit">Send Message</button>
+                        </div>
+
+                    </form>
+                    <footer>
+                        <li>Copyright © 2025 Sujith.</li>
+                    </footer>
+                </div>
+            </div>
+    </main>
+
+</body>
+</html>
